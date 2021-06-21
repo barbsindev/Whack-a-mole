@@ -1,0 +1,19 @@
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.mole {
+  background-image: url("./krtek.png");
+  height: 200px;
+  width: 200px;
+}
