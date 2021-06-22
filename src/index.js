@@ -2,6 +2,7 @@ const boxes = document.querySelectorAll(".box");
 const mole = document.querySelector(".mole");
 const time = document.querySelector("#time-left");
 const score = document.querySelector("#score");
+const button = document.querySelector(".btn");
 
 let result = 0;
 let hitPosition;

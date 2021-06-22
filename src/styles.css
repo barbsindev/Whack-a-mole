@@ -17,9 +17,26 @@
   height: 200px;
   width: 200px;
 }
+h1 {
+  text-align: center;
+}
 
 @media screen and (max-width: 768px) {
   .grid {
     grid-template-columns: auto;
   }
+}
+
+.score,
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  width: 100%;
+  max-width: 200px;
+  position: absolute;
+
+  left: 50%;
 }
