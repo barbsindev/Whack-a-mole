@@ -32,10 +32,3 @@ h1 {
   display: flex;
   justify-content: center;
 }
-
-.btn {
-  width: 100%;
-  max-width: 200px;
-  position: absolute;
-  left: 50%;
-}
