@@ -29,10 +29,9 @@ boxes.forEach((box) => {
   });
 });
 function moveMole() {
-  timer = setInterval(randomBox, 500);
+  timer = setInterval(randomBox, 1000);
 }
 
-// randomBox();
 moveMole();
 
 function countDown() {

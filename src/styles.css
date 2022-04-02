@@ -13,7 +13,7 @@
 }
 
 .mole {
-  background-image: url("./krtek.png");
+  background-image: url("../src//images/krtek.png");
   height: 200px;
   width: 200px;
 }
@@ -37,6 +37,5 @@ h1 {
   width: 100%;
   max-width: 200px;
   position: absolute;
-
   left: 50%;
 }
